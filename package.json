@@ -1,0 +1,35 @@
+{
+    "name": "@mongez/scheduler",
+    "version": "1.0.0",
+    "description": "A lightweight scheduler to run tasks in certain times.",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "jest ./src",
+        "test:coverage": "jest ./src --coverage",
+        "test:watch": "jest ./src --watch",
+        "test:file": "jest"
+    },
+    "dependencies": {
+        "dayjs": "^1.11.10"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.0",
+        "jest": "^29.5.0",
+        "jest-esm-jsx-transform": "^1.0.0",
+        "ts-jest": "^29.0.5",
+        "typescript": "^5.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hassanzohdy/scheduler"
+    },
+    "keywords": [
+        "scheduler",
+        "jobs",
+        "cron",
+        "cronjob",
+        "cronjobs"
+    ],
+    "author": "hassanzohdy",
+    "license": "MIT"
+}
