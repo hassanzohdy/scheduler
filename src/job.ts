@@ -179,7 +179,7 @@ export class Job {
   public determineNextRun() {
     let date = this.lastRun ? this.lastRun.add(1, "second") : dayjs();
 
-    if (this.intervals.every?.value) {
+    if (this.nextRun && this.intervals.every?.value) {
       date = date.add(this.intervals.every.value, this.intervals.every.type);
     }
 
